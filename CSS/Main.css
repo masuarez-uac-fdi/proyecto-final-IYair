@@ -58,6 +58,7 @@ header {
   background: #1e1e1e; }
 
 p {
+  text-align: justify;
   margin-bottom: 1.6em; }
 
 .container {
