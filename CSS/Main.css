@@ -6,22 +6,24 @@
   padding: 0; }
 
 header {
-  background: #0d0d0d;
   width: 100%;
-  position: fixed;
-  -webkit-box-shadow: 1px -3px 6px 11px rgba(0, 0, 0, 0.66);
-  -moz-box-shadow: 1px -3px 6px 11px rgba(0, 0, 0, 0.66);
-  box-shadow: 1px -3px 6px 11px rgba(0, 0, 0, 0.66); }
+  height: 825px;
+  background: url("../imagenes/DJI_0006.00_00_47_09.Imagen fija010.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -2; }
   header nav {
     width: 150px;
     height: 100%;
     left: -100%;
+    top: 65px;
     margin: 0;
     background: #0d0d0d;
     position: fixed;
     -webkit-box-shadow: 2px 9px 7px 9px rgba(0, 0, 0, 0.66);
     -moz-box-shadow: 2px 9px 7px 9px rgba(0, 0, 0, 0.66);
-    box-shadow: 2px 9px 7px 9px rgba(0, 0, 0, 0.66); }
+    box-shadow: 2px 9px 7px 9px rgba(0, 0, 0, 0.66);
+    z-index: 2; }
   header ul {
     overflow: hidden;
     list-style: none;
@@ -44,8 +46,13 @@ header {
 
 .menu_bar {
   display: block;
-  width: 70px;
-  background: #0d0d0d; }
+  background: #0d0d0d;
+  width: 100%;
+  position: fixed;
+  -webkit-box-shadow: 1px -3px 6px 11px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 1px -3px 6px 11px rgba(0, 0, 0, 0.66);
+  box-shadow: 1px -3px 6px 11px rgba(0, 0, 0, 0.66);
+  z-index: 2; }
   .menu_bar .btn-menu {
     display: block;
     padding: 20px;
@@ -57,16 +64,49 @@ header {
   display: none;
   background: #1e1e1e; }
 
+body {
+  background-color: #1e1e1e; }
+
+#logo {
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  display: inline-block;
+  left: 25%; }
+
 p {
+  padding-top: 5%;
   text-align: justify;
   margin-bottom: 1.6em; }
 
 .container {
-  width: 85%;
-  max-width: 850px;
-  margin: 0 auto; }
+  padding: 60px 0;
+  left: 25%;
+  color: white;
+  position: absolute;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden; }
 
 .main {
   padding-top: 10rem; }
+
+.divicion {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+.footer {
+  position: absolute;
+  bottom: -100%; }
+
+.texto-header {
+  display: flex;
+  height: 140%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: white; }
 
 /*# sourceMappingURL=Main.css.map */
