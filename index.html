@@ -14,7 +14,7 @@
     <a href="#" class="btn-menu"><span class="icon-menu"></span></a>
 </div>
 <header>
-    <img id="logo" src="imagenes/logo.png">
+    <img id="logo" src="imagenes/logo.png" alt="">
 <!-- Menu -->
 <nav>
     <ul>
@@ -39,8 +39,8 @@
                 <li><a href="Redirecciones/Garantia.html"></span>Garantia</a></li>
             </ul>
         </li>
-        <li><a href="Redirecciones/Partners"><span class="icon-users"></span>Partners</a> </li>
-        <li><a href="Redirecciones/Contacts"><span class="icon-envelop"></span>Contacts</a> </li>
+        <li><a href="Redirecciones/Partners.html"><span class="icon-users"></span>Partners</a> </li>
+        <li><a href="Redirecciones/Contacts.html"><span class="icon-envelop"></span>Contacts</a> </li>
     </ul>
 </nav>
     <section class="texto-header">
@@ -68,6 +68,16 @@
         </div>
     </section>
 </main>
+<div>
+    <form id="formulario" action="">
+        <h2>Contacto</h2>
+        <input type="text" id="txtNombre" name="Nombre" placeholder="Nombre">
+        <input type="text" id="txtCorreo" name="Correo" placeholder="Correo">
+        <input type="text" id="txtTelefono" name="Telefono" placeholder="Telefono">
+        <textarea id="txtComentarios" name="Comentarios" placeholder="Comentarios"></textarea>
+        <button type="submit" value="Enviar" id="Enviar">Enviar</button>
+    </form>
+</div>
 <footer class="footer">
     <div>
         <p>Página diseñada por @IYairC.</p>
@@ -75,5 +85,6 @@
 </footer>
 <script src="Javascript/Funciones.js"></script>
 <script src="Javascript/MenuDesplegable.js"></script>
+<script src="Javascript/Formulario.js"></script>
 </body>
 </html>
